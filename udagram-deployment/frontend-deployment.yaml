@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-      - image: thaotran007/udagram-frontend:v6
+      - image: thaotran007/udagram-frontend
         name: udagram-frontend
         imagePullPolicy: Always
         ports:
